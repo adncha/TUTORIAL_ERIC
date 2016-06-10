@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce9fda88-4bda-44bc-b73d-2211b1e3e3a9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/blog.php" afterPath="$PROJECT_DIR$/application/controllers/blog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/script.js" afterPath="$PROJECT_DIR$/javascript/script.js" />
     </list>
     <ignored path="TUTORIAL_ERIC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index_1.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_1.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/blog/index_1.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -37,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="238">
+              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -243,12 +240,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465566272034</updated>
-      <workItem from="1465570941102" duration="162000" />
+      <workItem from="1465570941102" duration="255000" />
     </task>
+    <task id="LOCAL-00001" summary="Add bootstrap comment field">
+      <created>1465571114108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1465571114108</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162000" />
+    <option name="totallyTimeSpent" value="255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -276,23 +281,27 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add bootstrap comment field" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add bootstrap comment field" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/blog/index_1.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/blog.php">
+    <entry file="file://$PROJECT_DIR$/application/views/blog/index_1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

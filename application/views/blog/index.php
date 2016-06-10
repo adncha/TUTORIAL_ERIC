@@ -5,6 +5,7 @@
         <title>Blog</title>
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
         <link href="/css/style.css" rel="stylesheet" type="text/css">
+        <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <div id="header">
@@ -41,5 +42,6 @@
         </div>
         <script src="/javascript/script.js">
         </script>
+        <script type="text/javascript" src="/assets/jquery/jquery-2.1.4.min.js"></script>
     </body>
 </html>

@@ -17,16 +17,6 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
 
 
-### Combine setup
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^css/(.*) /combine.php?type=css&files=$1 [L]
-RewriteRule ^javascript/(.*) /combine.php?type=javascript&files=$1 [L]
-RewriteRule ^student/(.*) /combine.php?type=student&files=$1 [L]
-RewriteRule ^teacher/(.*) /combine.php?type=teacher&files=$1 [L]
-RewriteRule ^plugins/(.*) /combine.php?type=plugins&files=$1 [L]
-
-
-
 
 #Maintenance Mode:
 #RewriteCond %{REQUEST_URI} !^/errors\.html$

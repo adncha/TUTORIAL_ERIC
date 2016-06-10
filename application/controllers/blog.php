@@ -13,7 +13,7 @@ class Blog extends CI_Controller
         //this function will retrive all entry in the database
         $data['query'] = $this->blog_model->get_all_posts();
         $data['o'] = $this->blog_model->get_all_comments();
-        $this->load->view('blog/index',$data);
+        $this->load->view('blog/index_1',$data);
     }
 
     function add_new_entry()

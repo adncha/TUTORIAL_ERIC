@@ -17,15 +17,14 @@ function hide() {
 };
 
 window.onscroll = function () {
-    var ele = document.getElementById("main");
     var a = document.body.scrollTop;
     if (a > "100") {
-        document.getElementById("header").style.opacity = "0.6";
-        document.getElementById("h2").style.color = "white";
+        document.getElementsByClassName("navbar")[0].style.opacity = "0.6";
+        document.getElementsByClassName("navbar-brand")[0].style.color = "tomato";
     }
     else {
-        document.getElementById("header").style.opacity = "1";
-        document.getElementById("h2").style.color = "black";
+        document.getElementsByClassName("navbar")[0].style.opacity = "1";
+        document.getElementsByClassName("navbar-brand")[0].style.color = "white";
     }
 };
 
